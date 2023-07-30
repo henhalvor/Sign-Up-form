@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Sign-up Form</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="content">
+      <div class="left">
+        <div class="logo">
+          <img src="logo.png" alt="Ubuntu-logo" />
+          <h1>Ubuntu</h1>
+        </div>
+        <div class="background-image">
+          <img src="image.jpg" alt="Ubuntu-jellyfish" />
+        </div>
+      </div>
+      <div class="right">
+        <div class="sign-up-paragraph">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
+            excepturi, autem officia architecto ut incidunt laborum aspernatur.
+            Tempora enim eveniet hic quo, a molestiae ipsum saepe dignissimos
+            unde et sapiente!
+          </p>
+          <p>You know you want to.</p>
+        </div>
+        <div class="form-container">
+          <form action="/">
+            <p class="form-title">Let's do this!</p>
+            <div class="fields">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" required>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" required>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required>
+                <label for="phone-number">Phone Number</label>
+                <input type="number" name="phone-number" id="phone-number" max="8">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" name="confirm-password" id="confirm-password" required>
+            </div>
+          </form>
+          <p>Already have an account? </p><a href="/">Log in</a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
