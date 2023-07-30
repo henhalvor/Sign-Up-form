@@ -1,0 +1,65 @@
+:root {
+    --text-color: black;
+    --main-background-color: #D3D3D3;
+    --secondary-background-color: red;
+
+}
+
+.content {
+    display: flex;
+    background-color: var(--main-background-color);
+}
+
+.left {
+    position: relative;
+}
+
+
+/* Logo */
+
+.logo{
+    display: flex;
+    position:absolute;
+    top: 25%;
+    left: 25%;
+}
+
+#logo {
+    width: 75px;
+    height: auto;
+}
+
+.logo h1 {
+    color: black;
+}
+
+
+/* background image */
+
+#background-image {
+    background-image: url(./logo.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+
+/* right side */
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.sign-up-paragraph {
+    padding-bottom: 50px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
