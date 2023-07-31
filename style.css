@@ -52,6 +52,7 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 25px;
+    padding-right: 100px;
 }
 
 .sign-up-paragraph {
@@ -61,5 +62,26 @@
 }
 
 
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
 
+}
 
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 100px;
+}
+
+.button {
+    padding-top: 25px;
+}
+
+.account-query {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
