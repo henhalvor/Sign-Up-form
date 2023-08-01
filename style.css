@@ -1,6 +1,7 @@
 :root {
     --text-color: black;
-    --main-background-color: white;
+    background-color: rgb(243, 239, 239);
+    --main-background-color: ;
     --secondary-background-color: red;
     --large-font: xx-large;
     --smaller-font: x-large;
@@ -67,8 +68,9 @@
     padding-top: 30px;
 }
 
-.sign-up-paragraph, p {
+.sign-up-paragraph p {
     max-width: 700px;
+    font-weight: 600;
 }
 
 
@@ -82,6 +84,7 @@
     border-radius: 2vw;
     padding: 1vw;
     justify-content: space-around;
+    background-color: white;
 
 }
 
@@ -119,9 +122,12 @@ button {
     border-width: 2px;
     border-color: black;
     border-style: solid;
-    padding: 0.5em;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
     font-weight: 600;
-    background-color: #90EE90;
+    background-color: #008000;
+    color: white;
 }
 
 label {
