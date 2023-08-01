@@ -137,3 +137,11 @@ label {
 input {
     border-radius: 9999px;
 }
+
+input:focus  {
+    border-width: 3px;
+}
+
+:hover {
+    border-width: 3px;
+}
