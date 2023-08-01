@@ -1,7 +1,11 @@
 :root {
     --text-color: black;
-    --main-background-color: #D3D3D3;
+    --main-background-color: white;
     --secondary-background-color: red;
+    --large-font: xx-large;
+    --smaller-font: x-large;
+    --type-font: Arial, Helvetica, Sans-serif;
+    font-size: ;
 
 }
 
@@ -37,7 +41,7 @@
 /* background image */
 
 #background-image {
-    background-image: url(./logo.png);
+    background-image: url(./image.jpg);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -50,15 +54,21 @@
 .right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     padding-left: 25px;
     padding-right: 100px;
 }
 
 .sign-up-paragraph {
-    padding-bottom: 50px;
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    font-size: var(--smaller-font);
+    font-family: var(--type-font);
+    box-shadow: inset;
+    padding-top: 30px;
+}
+
+.sign-up-paragraph, p {
+    max-width: 700px;
 }
 
 
@@ -66,14 +76,26 @@
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2vw;
+    padding: 1vw;
+    justify-content: space-around;
 
 }
+
+
+.form-container {
+    justify-self: center;
+}
+
 
 .input {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-right: 100px;
+    padding-right: 30px;
 }
 
 .button {
@@ -84,4 +106,28 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.form-title {
+    font-size: 2.5rem;
+    font-family: var(--type-font);
+    font-weight: 500;
+}
+
+button {
+    border-radius: 9999px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 0.5em;
+    font-weight: 600;
+    background-color: #90EE90;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    border-radius: 9999px;
 }
